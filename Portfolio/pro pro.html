@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Internship</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            margin: 0;
+            padding: 50px 20px;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-bottom: 25px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.02);
+        }
+        h1, h2 {
+            color: #ffcc00;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .internship {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section" data-aos="fade-up">
+            <h1>Professional Projects</h1>
+        </div>
+        
+        <div class="section" data-aos="fade-right">
+            <h2>Taxi Fare Prediction</h2>
+            <p>Developed a robust predictive model to estimate New York City taxi fares using historical trip data. Key factors considered included pickup/drop-off locations, passenger count, and weather conditions. Implemented advanced machine learning models such as Linear Regression, Decision Trees, and Support Vector Machines (SVM) for better accuracy.</p>
+            <p><strong>Technologies Used:</strong> Python, pandas, scikit-learn, matplotlib</p>
+        </div>
+        
+        <div class="section" data-aos="fade-left">
+            <h2>Rainfall Prediction in India</h2>
+            <p>Built a machine learning model to predict rainfall patterns across various Indian states using historical weather data. Used regression techniques to analyze annual trends, employing models like Linear Regression and Support Vector Regression (SVR).</p>
+            <p><strong>Technologies Used:</strong> Python, pandas, scikit-learn, matplotlib</p>
+        </div>
+        
+        <div class="section internship" data-aos="fade-up">
+            <h1>Internship Experience</h1>
+            <p><strong>Company:</strong> TESRO, Trivandrum</p>
+            <p><strong>Role:</strong> Data Science Intern</p>
+            <p><strong>Duration:</strong> 6 months</p>
+            <p>Worked on real-world projects involving data preprocessing, model development, and visualization. Focused on optimizing machine learning performance while gaining insights into industry practices.</p>
+        </div>
+    </div>
+</body>
+</html>
